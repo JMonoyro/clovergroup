@@ -1,0 +1,130 @@
+@import '../../style/variables.scss';
+
+.WhiteBtn{
+    width: 262px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 50px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: $bdb;
+
+    &:hover{
+        filter: brightness(90%);
+    }
+}
+
+.SmallWhiteBtn{
+    width: 158px;
+    height: 36px;
+    background: $l_grey;
+    border-radius: 50px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: $tdb2;
+
+    &:hover{
+        filter: brightness(90%);
+    }
+}
+
+
+.DarkBtn{
+    width: 262px;
+    height: 50px;
+    background: $dark1;
+    border-radius: 50px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    &:hover{
+        filter: brightness(90%);
+    }
+}
+
+
+.GreenBtn{
+    width: 262px;
+    height: 50px;
+    background: $green00;
+    border-radius: 50px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    &:hover{
+        filter: brightness(90%);
+    }
+}
+
+.SmallGreenBtn{
+    width: 167px;
+    height: 19px;
+    background: $green00;
+    border-radius: 50px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #FFFFFF;
+
+    &:hover{
+        filter: brightness(90%);
+    }
+}
+
+.SmallVoidBtn{
+    width: 154px;
+    height: 30px;
+    background: none;
+    border: 2px solid $green00;
+    border-radius: 50px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #013A51;
+
+    &:hover{
+        filter: brightness(90%);
+    }
+}
+
+.VoidBtn{
+    width: 280px;
+    height: 50px;
+    background: none;
+    border: 2px solid $green00;
+    border-radius: 50px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #013A51;
+
+    &:hover{
+        filter: brightness(90%);
+    }
+}
+

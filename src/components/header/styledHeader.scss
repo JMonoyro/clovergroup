@@ -1,0 +1,55 @@
+@import '../../style/variables.scss';
+
+.header{
+    &_container{
+        z-index: 1;
+        position: fixed;
+        width: 100%;
+        background-color: $green1;
+        box-shadow: 0px 5.69882px 9.49804px rgba(19, 40, 29, 0.098);
+        font-size: 15px;
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+    }
+    &_wrapper{
+        margin: 0 auto;
+        width: 1130px;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &_menu{
+        &_items{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            width: 650px;
+        }
+        // &_item{
+            
+        // }
+    }
+    &_login{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 240px;
+        &_text{
+            margin: 0;
+            font-size: 14px;
+        }
+        &_btn{
+            margin: 0;
+            height: 40px;
+        }
+    }
+}

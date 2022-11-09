@@ -1,0 +1,159 @@
+@import '../../style/variables.scss';
+
+.footer{
+    background: #193844;
+    height: 684px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_container{
+    height: 684px;
+    width: 1130px;
+}
+
+.footer_menu{
+    height: 142px;
+    width: 1090px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    border-bottom: #275668 1px solid;
+}
+
+.footer_logo{
+    height: 30px;
+    width: 111px;
+}
+
+.footer_btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 248px;
+    height: 50px;
+}
+
+.footer_login a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+
+
+.footer_lists{
+    height: 429px;
+    width: 1090px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.footer_copy{
+    height: 113px;
+    width: 1090px;
+    border-top: #275668 1px solid;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.footer_list{
+    height: 330px;
+    width: 170px;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.footer_list_title{
+    height: 40px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 133%;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.footer_list_items{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    justify-content: flex-start;
+
+    height: 290px;
+}
+
+
+.footer_list_item{
+    margin: 10px 0;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 133%;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+
+.footer_link_list{
+    height: 168px;
+    width: 150px;
+    margin-top: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+.footer_lists_wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 1110px;
+
+}
